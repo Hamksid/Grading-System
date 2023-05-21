@@ -7,7 +7,7 @@ function add() {
     var e = Number( document.getElementById('Chemistry').value)
     var add =(document.getElementById(`total`))
     add.value =a+b+c+d+e;
-    document.getElementById("total").value=`Hello ${username} your total this section is ${add.value} %`
+    document.getElementById("total").value=`Hello ${username} your total score this section is ${add.value} %`
 }
 function Average() {
     var username = document.getElementById('student').value
