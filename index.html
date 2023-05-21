@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div">
+        <div id="page">
+            <h1 id="gsij">Grading system in js</h1>
+            <input type="text" placeholder="student name" id="student">
+            <form id="form">
+                <div>
+                    <h4>Mathes</h4><input id="Mathes" type="number" placeholder="Mathes">
+                </div>
+                <div>
+                    <h4>English</h4><input id="English" type="number" placeholder="English">
+                </div>
+                <div>
+                    <h4>Physics</h4><input id="Physics" type="number" placeholder="Physics">
+                </div>
+                <div>
+                    <h4>Biology</h4><input id="Biology" type="number" placeholder="Biology">
+                </div>
+                <div>
+                    <h4>Chemistry</h4><input id="Chemistry" type="number" placeholder="Chemistry">
+                </div>
+            </form>
+            <div id="tag">
+                <input onclick="add()" type="button" value="Total">
+                <input onclick="Average()" type="button" value="Average">
+                <input onclick="Grade()" type="button" value="Grade">
+            </div>
+        </div>
+        <div id="tot">
+            <h1 id="ttl">Total</h1>
+            <input type="button"  id="total">
+            <h1 id="ave">Average</h1>
+            <input type="button" id="Avera">
+            <h1 id="gra">Grade</h1>
+            <input type="button" id="grade">
+        </div>
+    </div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
