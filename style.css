@@ -7,7 +7,7 @@
 
 body{
     width: 100%;
-    background: #0C134F;
+    background: brown;
     color: rgb(228, 199, 199);
 }
 
@@ -21,6 +21,8 @@ body{
 }
 
 #gsij{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     border: 1px solid;
     background: black;
     color: white;
@@ -29,22 +31,32 @@ body{
 #ttl{
     border: 1px solid;
     background: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     color: white;
 }
 
 #page{
     margin-top: 10%;
     border: 1px solid;
-    height: 60%;
+    height: 75%;
     width: 40%;
     text-align: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 13px 13px 100px rgb(168, 43, 43),
+               -13px -13px 100px #ddc4c4;
 }
 
 #tot{
     text-align: center ;
     margin-top: 10%;
     border: 1px solid;
-    height: 60%;
+    border-radius: 10px;
+    height: 75%;
+    background-color: whitesmoke;
+    box-shadow: 13px 13px 100px rgb(177, 43, 43),
+               -13px -13px 100px #ffffff;
     background: white;
     width: 50%;
 }
@@ -55,14 +67,35 @@ body{
     margin-top: 5%;
 }
 
+#form div input{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: whitesmoke;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+
+#form div h4{
+    color: brown;
+    font-size: 12px;
+}
+
 #tag{
     margin-top: 30px;
 }
 
 #tag input{
-    width: 60px;
-    height: 5vh;
+    margin-top: 15px;
     margin-left: 20px ;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: whitesmoke;
+    box-shadow: inset 2px 5px 10px rgba(27, 27, 27, 0.3);
+    transition: 300ms ease-in-out;
 }
 
 #total{
@@ -83,8 +116,15 @@ body{
 }
 
 #student{
-    height: 8%;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-left: 20px ;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: whitesmoke;
+    box-shadow: inset 2px 5px 10px rgba(27, 27, 27, 0.3);
+    transition: 300ms ease-in-out;
 }
 
 #Avera{
