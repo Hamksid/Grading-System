@@ -46,7 +46,7 @@ body{
     border: 1px solid;
     height: 60%;
     background: white;
-    width: 40%;
+    width: 50%;
 }
 
 #form div{
@@ -150,14 +150,13 @@ body{
     margin: auto;
     width: 70%;
     height: 260%;
-    /* border: 1px solid; */
     display: flex;
     flex-direction: column;
 }
 #page{
     border: 2px solid;
     height: 60%;
-    width: 95%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
@@ -192,7 +191,7 @@ body{
     text-align: center ;
     border: 2px solid;
     height: 40%;
-    width: 95%;
+    width: 100%;
 }
 #form div input{
     width: 50%;
