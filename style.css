@@ -90,10 +90,10 @@ body{
     margin-top: 15px;
     margin-left: 20px ;
     border: none;
-    outline: none;
     border-radius: 15px;
     padding: 1em;
-    background-color: whitesmoke;
+    color: white;
+    background-color: rgb(7, 7, 7);
     box-shadow: inset 2px 5px 10px rgba(27, 27, 27, 0.3);
     transition: 300ms ease-in-out;
 }
